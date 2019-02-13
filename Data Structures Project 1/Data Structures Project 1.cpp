@@ -15,14 +15,18 @@ int main()
 	{
 		std::vector<std::list<int>> adjList;
 		std::string str;
-		std::list<int> mtLst;  // an empty list
 
-		for (int i = 0; i < 4; ++i)
+		while (std::getline(graph_file, str)) 
 		{
-			adjList.push_back(mtLst); // push an empty list onto the adjList
-			for (int j = 0; j <= i; ++j)
-				adjList[i].push_back(j);  // populate the list just pushed onto the vector
 
+			std::list<int> mtLst;
+			std::istringstream ss(str);
+			std::string c;
+			while (std::getline(ss, c, ' ')) 
+			{
+				mtLst.push_back(std::stoi(c));
+			}
+			adjList.push_back(mtLst);
 		}
 
 		printAdjList(adjList);
