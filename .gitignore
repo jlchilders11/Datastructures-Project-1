@@ -2,3 +2,5 @@
 .vs/Datastructures-Project-1/v15/Browse.VC.db
 .vs/Datastructures-Project-1/v15/Browse.VC.opendb
 .vs/slnx.sqlite
+*.json
+.vs/Datastructures-Project-1/v15/.suo
