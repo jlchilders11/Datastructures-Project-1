@@ -1,4 +1,5 @@
-﻿// Data Structures Project 1.cpp : Defines the entry point for the application.
+﻿// components.cpp : Defines the entry point for the application.
+// Program by Jeremy Childers
 //
 
 #include "components.h"

@@ -1,4 +1,4 @@
-﻿// Data Structures Project 1.h : Include file for standard system include files,
+﻿// components.h : Include file for standard system include files,
 // or project specific include files.
 
 #pragma once
